@@ -9,7 +9,7 @@ changes in the state. In this lesson, we'll fix that.
 
 The reason why the application did not re-render previously is because our
 __React__ and __Redux__ libraries could not properly communicate to each other
-correctly to specify that a change in the store's state occurred. Luckily, we
+correctly to specify that a change in the store's state occurred. Luckily, we 
 can use the __React Redux__ library to get React and Redux talking to one
 another. Run `npm install react-redux --save` to install it and add to our
 `package.json`.
